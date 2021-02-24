@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "514021146294",
+    "firebase_url": "https://meeting-room-e90e0.firebaseio.com",
+    "project_id": "meeting-room-e90e0",
+    "storage_bucket": "meeting-room-e90e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514021146294:android:d17aebddd23e1c453eb017",
+        "android_client_info": {
+          "package_name": "com.example.meetingRoom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514021146294-iuss2i0uc3naqorgd450skk0jkntrcv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetingRoom",
+            "certificate_hash": "3715963fd238e11d89c782eb435068316de3d3c4"
+          }
+        },
+        {
+          "client_id": "514021146294-pkldn22loue0nk4etm9clcu2kp2hc8m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBu0XW6H0ZgLd28_6UkAEVmx-PbIZRPso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514021146294-pkldn22loue0nk4etm9clcu2kp2hc8m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

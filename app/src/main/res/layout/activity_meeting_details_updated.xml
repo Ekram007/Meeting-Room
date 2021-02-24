@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MeetingDetailsUpdated">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/updated_meeting_toolbar"
+        >
+    </include>
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updated_meeting_toolbar"
+        android:inputType="textMultiLine"
+        android:hint="Meeting Subject"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_profile"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="@color/cardview_light_background"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/agenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subject"
+        android:inputType="textMultiLine"
+        android:hint="Meeting Agenda"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agenda"
+        android:inputType="textMultiLine"
+        android:hint="Meeting Date"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:inputType="textMultiLine"
+        android:hint="Meeting Time"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/time"
+        android:inputType="textMultiLine"
+        android:hint="Meeting Place"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/edit_status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
