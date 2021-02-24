@@ -180,4 +180,9 @@ public class PhoneLoginActivity extends AppCompatActivity
         startActivity(mainIntent);
         finish();
     }
+
+    private void SendBoo_s()
+    {
+
+    }
 }
